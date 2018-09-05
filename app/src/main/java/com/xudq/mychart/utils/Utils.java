@@ -23,4 +23,25 @@ public class Utils {
         return (int) (pxValue / scale + 0.5f);
     }
 
+    public static String toString(Object o) {
+        try {
+            if (o != null) {
+                return o.toString();
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return "";
+    }
+
+    public static int toInt(Object o){
+        try {
+            if(o !=null){
+                return  Integer.valueOf(o.toString());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return 0;
+    }
 }

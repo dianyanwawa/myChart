@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">myChart</string>
+    <string name="title_activity_test1">Test1Activity</string>
+    <string name="title_activity_test3">Test3Activity</string>
+    <string name="title_activity_test4">Test4Activity</string>
+    <string name="title_activity_test5">Test5Activity</string>
 </resources>
